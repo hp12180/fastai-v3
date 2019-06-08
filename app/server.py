@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1lITIBrcc-khK--UvST_vVJ4mc2QNVSB-'
-export_file_name = 'model_ones_3epoch_densenet.tar'
+export_file_url = 'https://drive.google.com/uc?export=download&id=17yTRKBu8Sy3UCK6AeSl4QkniZgSgULpp'
+export_file_name = 'm-epoch1-14042019-132417.pth'
 
 classes = ['No Finding', 'Enlarged Cardiomediastinum', 'Cardiomegaly', 'Lung Opacity', 
                'Lung Lesion', 'Edema', 'Consolidation', 'Pneumonia', 'Atelectasis', 'Pneumothorax', 
